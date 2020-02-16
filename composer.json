@@ -8,7 +8,11 @@
     "authors": [],
     "minimum-stability": "dev",
     "scripts": {
-        "pre-package-update": [
+        "post-package-update": [
+            "php -r \"copy('Data/Htaccess', '../Htaccess');\"",
+            "php -r \"copy('Data/Htpasswd', '../Htpasswd');\""
+        ],
+        "post-package-install": [
             "php -r \"copy('Data/Htaccess', '../Htaccess');\"",
             "php -r \"copy('Data/Htpasswd', '../Htpasswd');\""
         ]
