@@ -1,0 +1,8 @@
+AuthUserFile /app/Public/.htpasswd
+AuthType Basic
+AuthName "Fadebit"
+Require valid-user
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ Router.php [L,QSA]

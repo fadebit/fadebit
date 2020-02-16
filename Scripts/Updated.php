@@ -1,7 +1,7 @@
 <?php
 
 //Htaccess
-file_put_contents(__DIR__ . '/../../../../Public/Htaccess', 'Htaccess');
+file_put_contents(__DIR__ . '/../../../../Public/.htaccess', 'Htaccess');
 
 //Htpasswd
-file_put_contents(__DIR__ . '/../../../../Public/Htpasswd', 'Htpasswd');
+file_put_contents(__DIR__ . '/../../../../Public/.htpasswd', 'Htpasswd');
