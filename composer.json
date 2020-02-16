@@ -7,6 +7,12 @@
     "license": "MIT",
     "authors": [],
     "minimum-stability": "dev",
+    "scripts": {
+        "pre-package-update": [
+            "php -r \"copy('Data/Htaccess', '../Htaccess');\"",
+            "php -r \"copy('Data/Htpasswd', '../Htpasswd');\""
+        ]
+    },
     "autoload": {
         "files": [
             "Source/Fadebit.php"
