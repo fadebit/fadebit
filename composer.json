@@ -7,11 +7,6 @@
     "license": "MIT",
     "authors": [],
     "minimum-stability": "dev",
-    "scripts": {
-        "post-update-cmd": ["php -r \"file_put_contents('../post-update-cmd');\""],
-        "post-autoload-dump": ["php -r \"file_put_contents('../post-autoload-dump');\""],
-        "post-dependencies-solving": ["php -r \"file_put_contents('../post-dependencies-solving');\""]
-    },
     "autoload": {
         "files": [
             "Source/Fadebit.php"
