@@ -1,0 +1,12 @@
+{
+    "cardini": {
+        "Type": "Portal",
+        "Name": "Cardini",
+        "Domain": "cardini.fadebit.com"
+    },
+    "payer": {
+        "Type": "Portal",
+        "Name": "Payer",
+        "Domain": "payer.fadebit.com"
+    }
+}

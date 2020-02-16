@@ -1,0 +1,15 @@
+{
+    "name": "fadebit/fadebit",
+    "type": "library",
+    "description": "Your package description goes here",
+    "keywords": [],
+    "homepage": "https://github.com/fadebit/fadebit",
+    "license": "MIT",
+    "authors": [],
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "Source/Fadebit.php"
+        ]
+    }
+}
